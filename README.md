@@ -1,16 +1,147 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**nestchao/nestchao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Nest Chao 👋
 
-Here are some ideas to get you started:
+### AI • Computer Vision • Android • Windows • Automation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build practical software, experiment with AI, and turn ideas into working applications.
+
+<p>
+  <a href="https://github.com/nestchao">
+    <img src="https://img.shields.io/badge/GitHub-nestchao-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://nestchao.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
+</p>
+
+</div>
+
+---
+
+## 👨‍💻 About Me
+
+I'm interested in building useful systems across **AI, computer vision, mobile, desktop, and automation**.
+
+- 🤖 AI applications, LLMs, agents, RAG, and local inference
+- 👁️ Computer vision, pose estimation, activity recognition, and ML
+- 📱 Native Android development with Kotlin
+- 🖥️ Windows and cross-platform desktop applications
+- ⚙️ Automation, developer tooling, and practical utilities
+- 🌐 Full-stack web applications
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,kotlin,java,ts,js,html,css,cpp,dart" alt="Languages">
+</p>
+
+### Frameworks & Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=androidstudio,flutter,react,nextjs,nodejs,fastapi,pytorch,opencv,supabase,git,github,docker,vscode" alt="Tools and frameworks">
+</p>
+
+### Current Interests
+
+`LLMs` · `Computer Vision` · `Local AI` · `RAG` · `AI Agents` · `Mobile Apps` · `Desktop Apps` · `Automation`
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ♾️ [Hotspot Bypass VPN](https://github.com/nestchao/Hotspot-Bypass-VPN-Unlimited-Hotspot)
+
+Share mobile data with Windows and Android using Wi-Fi Direct, SOCKS5, tun2socks, and a no-root workflow.
+
+**Tech:** Kotlin · Python · Android · Windows · Networking
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [AI Studio Bridge](https://github.com/nestchao/ai-studio-bridge)
+
+Python automation wrapper for Google AI Studio for Gemini prompting, file extraction, and model automation through Playwright.
+
+**Tech:** Python · Playwright · Gemini · Automation
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [Synapse Flow](https://github.com/nestchao/Synapse-Flow)
+
+An AI study hub and coding workspace focused on automated notes, study workflows, and repository integration.
+
+**Tech:** Python · AI · Automation
+
+</td>
+<td width="50%" valign="top">
+
+### 🤟 [Malaysia Sign Language Recognition](https://github.com/nestchao/malaysia-sign-language)
+
+Computer-vision project for Malaysian Sign Language recognition using MediaPipe and machine learning.
+
+**Tech:** Python · MediaPipe · Machine Learning · Computer Vision
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Metrics
+
+<picture>
+  <img src="/github-metrics.svg" alt="GitHub Metrics" width="100%">
+</picture>
+
+---
+
+## 🧭 What I'm Exploring
+
+```text
+AI Systems
+├── Large Language Models
+├── AI Agents
+├── Retrieval-Augmented Generation
+└── Local AI inference
+
+Computer Vision
+├── Human Pose Estimation
+├── Activity Recognition
+├── Object Detection
+└── Real-time Vision Systems
+
+Application Development
+├── Android / Kotlin
+├── Windows Desktop Apps
+├── Web Applications
+└── Cross-platform Tools
+```
+
+---
+
+## 🔨 More Projects
+
+Explore more of my work in my **[GitHub repositories](https://github.com/nestchao?tab=repositories)**.
+
+---
+
+<div align="center">
+
+### Thanks for visiting 👋
+
+**Always building. Always learning.**
+
+</div>
