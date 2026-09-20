@@ -113,7 +113,7 @@ Computer-vision project for Malaysian Sign Language recognition using MediaPipe 
 ### Detailed Metrics
 
 <div align="center">
-  <img src="/github-metrics.svg" alt="GitHub Metrics" width="70%">
+  <img src="/github-metrics.svg" alt="GitHub Metrics" width="60%">
 </div>
 
 ---
