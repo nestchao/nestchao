@@ -100,7 +100,17 @@ Computer-vision project for Malaysian Sign Language recognition using MediaPipe 
 
 ---
 
-## 📊 GitHub Metrics
+## 📊 GitHub Stats
+
+<div align="center">
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=nestchao&theme=default&hide_border=true&timezone=Asia%2FKuala_Lumpur" alt="GitHub Streak Stats">
+</a>
+
+</div>
+
+### Detailed Metrics
 
 <picture>
   <img src="/github-metrics.svg" alt="GitHub Metrics" width="100%">
