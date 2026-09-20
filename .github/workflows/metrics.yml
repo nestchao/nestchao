@@ -23,7 +23,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: nestchao
-          filename: github-metrics.svg
+          filename: github-metrics-v2.svg
           template: classic
 
           base: header, activity, community, repositories
