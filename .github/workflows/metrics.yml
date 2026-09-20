@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/metrics.yml"
 
 permissions:
   contents: write
@@ -32,10 +37,3 @@ jobs:
           plugin_languages_threshold: 1%
           plugin_languages_details: percentage
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_visibility: public
-
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
