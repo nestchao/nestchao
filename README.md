@@ -13,7 +13,7 @@ I build practical software, experiment with AI, and turn ideas into working appl
   <a href="https://nestchao.github.io">
     <img src="https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
-  <img src="https://komarev.com/ghpvc/?username=nestchao&label=PROFILE%20VIEWS&color=ff7f3f&style=for-the-badge" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=nestchao&label=PROFILE%20VIEWS&color=4285F4&style=for-the-badge" alt="Profile Views">
 </p>
 
 </div>
