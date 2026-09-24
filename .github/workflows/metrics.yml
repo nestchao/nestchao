@@ -3,7 +3,8 @@ name: GitHub Metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *"
+    # Refresh every 3 hours, offset from the top of the hour to reduce scheduler delays.
+    - cron: "17 */3 * * *"
   push:
     branches:
       - main
@@ -27,6 +28,7 @@ jobs:
           template: classic
 
           base: header, activity, community, repositories
+          base_indepth: yes
           config_timezone: Asia/Kuala_Lumpur
 
           plugin_isocalendar: yes
@@ -36,4 +38,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_details: percentage
-
