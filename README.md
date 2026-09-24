@@ -15,6 +15,10 @@ I build practical software, experiment with AI, and turn ideas into working appl
   </a>
 </p>
 
+<p>
+  <img src="https://komarev.com/ghpvc/?username=nestchao&label=PROFILE%20VIEWS&color=ff7f3f&style=flat-square" alt="Profile Views">
+</p>
+
 </div>
 
 ---
