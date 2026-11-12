@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" fill="none" role="img" aria-labelledby="stats-title stats-desc">
   <title id="stats-title">GitHub signal for nestchao</title>
-  <desc id="stats-desc">A GitHub signal card for nestchao: 1,807 contributions, 881 commits, 75 stars earned, 26 public repositories, a 12-month contribution heatmap, and the top languages by bytes.</desc>
+  <desc id="stats-desc">A GitHub signal card for nestchao: 1,808 contributions, 882 commits, 75 stars earned, 26 public repositories, a 12-month contribution heatmap, and the top languages by bytes.</desc>
   <style>
 @font-face {
   font-family: 'Space Grotesk';
@@ -84,7 +84,7 @@
 <text x="912.00" y="52.00" class="mono" font-size="10" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="0.8">LAST 12 MONTHS · SYNCED 12 NOV 2026</text>
     <line x1="48" y1="74" x2="912" y2="74" stroke="#FFFFFF" stroke-opacity=".08"/>
     <line x1="210" y1="96" x2="210" y2="272" stroke="#FFFFFF" stroke-opacity=".06"/>
-    <rect x="48" y="100" width="14" height="2" rx="1" fill="#F2B84B" opacity=".9"/><text x="48.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">1,807</text><text x="48.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">CONTRIBUTIONS</text><rect x="238" y="100" width="14" height="2" rx="1" fill="#63E6C4" opacity=".9"/><text x="238.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">881</text><text x="238.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">COMMITS</text><rect x="48" y="206" width="14" height="2" rx="1" fill="#7AA2F7" opacity=".9"/><text x="48.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">75</text><text x="48.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">STARS EARNED</text><rect x="238" y="206" width="14" height="2" rx="1" fill="#F78C6C" opacity=".9"/><text x="238.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">26</text><text x="238.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">PUBLIC REPOS</text>
+    <rect x="48" y="100" width="14" height="2" rx="1" fill="#F2B84B" opacity=".9"/><text x="48.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">1,808</text><text x="48.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">CONTRIBUTIONS</text><rect x="238" y="100" width="14" height="2" rx="1" fill="#63E6C4" opacity=".9"/><text x="238.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">882</text><text x="238.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">COMMITS</text><rect x="48" y="206" width="14" height="2" rx="1" fill="#7AA2F7" opacity=".9"/><text x="48.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">75</text><text x="48.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">STARS EARNED</text><rect x="238" y="206" width="14" height="2" rx="1" fill="#F78C6C" opacity=".9"/><text x="238.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">26</text><text x="238.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">PUBLIC REPOS</text>
     <text x="400.00" y="94.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.45">CONTRIBUTION SIGNAL</text>
     <text x="912.00" y="94.00" class="mono" font-size="9.0" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="1.0">12 MONTHS</text>
     <rect x="400.00" y="116.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.85"/>
@@ -455,7 +455,7 @@
 <rect x="868.00" y="125.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="1"/>
 <rect x="868.00" y="134.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.65"/>
 <rect x="868.00" y="143.00" width="7.0" height="7.0" rx="1.54" fill="#FFFFFF" fill-opacity="0.06"/>
-<rect x="868.00" y="152.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.42"/>
+<rect x="868.00" y="152.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.65"/>
     <text x="400.00" y="204.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.4">LANGUAGES / BY BYTES</text>
     <clipPath id="lang-bar-clip"><rect x="400" y="214" width="512" height="10" rx="5.0"/></clipPath>
 <g clip-path="url(#lang-bar-clip)">
