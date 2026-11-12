@@ -11,6 +11,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import math
 import os
 import sys
 import urllib.error
@@ -232,12 +233,23 @@ def fetch_stats() -> Stats:
     total_size = sum(sizes.values()) or 1
     ranked = sorted(sizes.items(), key=lambda item: item[1], reverse=True)
     palette = THEMES["dark"]["langs"]
-    languages: list[Language] = []
-    for index, (name, size) in enumerate(ranked[:5]):
-        languages.append(Language(name, size, size / total_size * 100, palette[index]))
+    entries: list[tuple[str, int]] = list(ranked[:5])
     other_size = sum(size for _, size in ranked[5:])
     if other_size:
-        languages.append(Language("Other", other_size, other_size / total_size * 100, palette[5]))
+        entries.append(("Other", other_size))
+
+    # Round to one decimal while keeping the displayed percentages summing to 100.0.
+    raw = [size / total_size * 100 for _, size in entries]
+    tenths = [math.floor(value * 10) for value in raw]
+    missing = 1000 - sum(tenths)
+    order = sorted(range(len(raw)), key=lambda index: raw[index] * 10 - tenths[index], reverse=True)
+    for index in order[: max(0, missing)]:
+        tenths[index] += 1
+
+    languages: list[Language] = [
+        Language(name, size, tenths[index] / 10, palette[min(index, len(palette) - 1)])
+        for index, (name, size) in enumerate(entries)
+    ]
 
     current, longest = compute_streaks(days)
     best = max(days, key=lambda item: item.count, default=None)
@@ -475,8 +487,8 @@ def header(theme: dict[str, str], stats: Stats, width: float, right: str, mobile
     out = [
         f'<circle cx="{x + 4}" cy="{y - 4}" r="3.4" fill="{theme["accent2"]}" class="pulse"/>',
         f'<circle cx="{x + 4}" cy="{y - 4}" r="7" fill="none" stroke="{theme["accent2"]}" stroke-opacity=".20"/>',
-        text(x + 18, y, "GITHUB / SIGNAL", 12 if mobile else 11, theme["accent2"], spacing=2.0),
-        text(width - x, y, right, 9.5 if mobile else 9.5, theme["dim"], anchor="end", spacing=0.8),
+        text(x + 18, y, "GITHUB / SIGNAL", 12 if mobile else 11.5, theme["accent2"], spacing=2.0),
+        text(width - x, y, right, 9.5 if mobile else 10, theme["dim"], anchor="end", spacing=0.8),
     ]
     return "\n".join(out)
 
@@ -488,8 +500,8 @@ def build_desktop(stats: Stats, theme_name: str) -> str:
     x_right = 400
     panel_width = W - x_right - 48
 
-    heat, heat_w, heat_h = heatmap(stats, t, x_right, 116, 7.0, 2.0, panel_width, 8.0)
-    legend = language_legend(stats, t, x_right, 244, panel_width, 3, 22, 9.5)
+    heat, heat_w, heat_h = heatmap(stats, t, x_right, 116, 7.0, 2.0, panel_width, 8.5)
+    legend = language_legend(stats, t, x_right, 244, panel_width, 3, 22, 10.5)
     bar = language_bar(stats, t, x_right, 214, panel_width, 10)
 
     stat_tiles = []
@@ -505,7 +517,7 @@ def build_desktop(stats: Stats, theme_name: str) -> str:
             f'<rect x="{x}" y="{y - 30}" width="14" height="2" rx="1" fill="{color}" opacity=".9"/>'
         )
         stat_tiles.append(text(x, y, value, 40, t["text"], family="sans", weight=300, spacing=-0.5))
-        stat_tiles.append(text(x, y + 24, label, 9.5, t["muted"], spacing=1.45))
+        stat_tiles.append(text(x, y + 24, label, 10.5, t["muted"], spacing=1.3))
 
     desc = (
         f"A GitHub signal card for {stats.login}: {fmt(stats.contributions)} contributions, "
@@ -526,15 +538,15 @@ def build_desktop(stats: Stats, theme_name: str) -> str:
     <line x1="{x_left}" y1="74" x2="{W - x_left}" y2="74" stroke="{t['line']}" stroke-opacity=".08"/>
     <line x1="210" y1="96" x2="210" y2="272" stroke="{t['line']}" stroke-opacity=".06"/>
     {''.join(stat_tiles)}
-    {text(x_right, 94, "CONTRIBUTION SIGNAL", 9.5, t['muted'], spacing=1.55)}
-    {text(W - 48, 94, "12 MONTHS", 8.5, t['dim'], anchor="end", spacing=1.1)}
+    {text(x_right, 94, "CONTRIBUTION SIGNAL", 10.5, t['muted'], spacing=1.45)}
+    {text(W - 48, 94, "12 MONTHS", 9.0, t['dim'], anchor="end", spacing=1.0)}
     {heat}
-    {text(x_right, 204, "LANGUAGES / BY BYTES", 9.5, t['muted'], spacing=1.5)}
+    {text(x_right, 204, "LANGUAGES / BY BYTES", 10.5, t['muted'], spacing=1.4)}
     {bar}
     {legend}
     <line x1="{x_left}" y1="296" x2="{W - x_left}" y2="296" stroke="{t['line']}" stroke-opacity=".08"/>
-    {text(x_left, 318, f"CURRENT STREAK {stats.current_streak} DAY{'S' if stats.current_streak != 1 else ''} · LONGEST {stats.longest_streak} DAYS · BEST DAY {stats.best_day}", 9.0, t['dim'], spacing=.45)}
-    {text(W - 48, 318, f"{stats.active_days} ACTIVE DAYS · {stats.followers} FOLLOWERS", 9.0, t['dim'], anchor="end", spacing=.45)}
+    {text(x_left, 318, f"CURRENT STREAK {stats.current_streak} DAY{'S' if stats.current_streak != 1 else ''} · LONGEST {stats.longest_streak} DAYS · BEST DAY {stats.best_day}", 10.0, t['dim'], spacing=.4)}
+    {text(W - 48, 318, f"{stats.active_days} ACTIVE DAYS · {stats.followers} FOLLOWERS", 10.0, t['dim'], anchor="end", spacing=.4)}
   </g>
   <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="23.5" stroke="{t['line']}" stroke-opacity="{t['border_opacity']}"/>
 </svg>
