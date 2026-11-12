@@ -33,28 +33,28 @@ Right now I'm building **SonicBrief**, a local-first transcription workspace, an
 
 ### <a href="https://github.com/nestchao/SonicBrief"><img src="assets/projects/sonicbrief.svg" width="30" height="30" align="absmiddle" alt=""></a> [SonicBrief](https://github.com/nestchao/SonicBrief) <a href="https://nestchao.github.io/SonicBrief/"><img src="https://img.shields.io/badge/Live-SonicBrief-F2B84B?style=flat-square&labelColor=0B0F17&logo=tauri&logoColor=F2B84B" alt="Live app" align="absmiddle"></a>
 
-**Video and audio → timestamped transcripts, clean summaries.**
+**Video and audio → timestamped transcripts, clean summaries.**<br>
 Local Whisper on Windows, a standalone Android app, a Chrome extension, and an MCP server for AI agents. No accounts, no cloud uploads, no per-minute bills.
 
 `Kotlin` · `Compose` · `Tauri` · `Whisper` · `MCP`
 
 ### <a href="https://github.com/nestchao/Hotspot-Bypass-VPN-Unlimited-Hotspot"><img src="assets/projects/hotspot.svg" width="30" height="30" align="absmiddle" alt=""></a> [Hotspot Bypass VPN](https://github.com/nestchao/Hotspot-Bypass-VPN-Unlimited-Hotspot) <a href="https://github.com/nestchao/Hotspot-Bypass-VPN-Unlimited-Hotspot"><img src="https://img.shields.io/github/stars/nestchao/Hotspot-Bypass-VPN-Unlimited-Hotspot?style=flat-square&label=%E2%98%85&color=F2B84B&labelColor=0B0F17" alt="GitHub stars" align="absmiddle"></a>
 
-**Share mobile data with Windows and Android — no root required.**
+**Share mobile data with Windows and Android — no root required.**<br>
 Wi-Fi Direct, SOCKS5, and tun2socks combine into a low-latency, no-root tethering workflow.
 
 `Kotlin` · `Python` · `Android` · `Windows` · `Networking`
 
 ### <a href="https://github.com/nestchao/ai-studio-bridge"><img src="assets/projects/ai-studio-bridge.svg" width="30" height="30" align="absmiddle" alt=""></a> [AI Studio Bridge](https://github.com/nestchao/ai-studio-bridge) <a href="https://github.com/nestchao/ai-studio-bridge"><img src="https://img.shields.io/github/stars/nestchao/ai-studio-bridge?style=flat-square&label=%E2%98%85&color=F2B84B&labelColor=0B0F17" alt="GitHub stars" align="absmiddle"></a>
 
-**A thread-safe Python bridge to Google AI Studio and Gemini.**
+**A thread-safe Python bridge to Google AI Studio and Gemini.**<br>
 Automates prompting, file extraction, and model workflows through Playwright, wrapped in a clean API for scripts and agents.
 
 `Python` · `Playwright` · `Gemini` · `Automation`
 
 ### <a href="https://github.com/nestchao/malaysia-sign-language"><img src="assets/projects/sign-language.svg" width="30" height="30" align="absmiddle" alt=""></a> [Malaysia Sign Language](https://github.com/nestchao/malaysia-sign-language)
 
-**Real-time Malaysian Sign Language recognition.**
+**Real-time Malaysian Sign Language recognition.**<br>
 A computer-vision pipeline built with MediaPipe and machine learning for pose tracking and gesture classification.
 
 `Python` · `MediaPipe` · `Machine Learning` · `Computer Vision`
