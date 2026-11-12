@@ -77,7 +77,7 @@ A computer-vision pipeline built with MediaPipe and machine learning for pose tr
 ## Tools I reach for
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,python,typescript,java,cpp,pytorch,opencv,androidstudio,flutter,react,nextjs,fastapi,tauri,supabase,docker,git&perline=8" alt="Kotlin, Python, TypeScript, Java, C++, PyTorch, OpenCV, Android Studio, Flutter, React, Next.js, FastAPI, Tauri, Supabase, Docker, Git">
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=kotlin,python,typescript,java,cpp,pytorch,opencv,androidstudio,flutter,react,nextjs,fastapi,tauri,supabase,docker,git&perline=8" alt="Kotlin, Python, TypeScript, Java, C++, PyTorch, OpenCV, Android Studio, Flutter, React, Next.js, FastAPI, Tauri, Supabase, Docker, Git"></a>
 </p>
 
 - **Build** — Kotlin · Python · TypeScript · Java · C++
