@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="340" viewBox="0 0 960 340" fill="none" role="img" aria-labelledby="stats-title stats-desc">
   <title id="stats-title">GitHub signal for nestchao</title>
-  <desc id="stats-desc">A GitHub signal card for nestchao: 1,766 contributions, 841 commits, 80 stars earned, 30 public repositories, a 12-month contribution heatmap, and the top languages by bytes.</desc>
+  <desc id="stats-desc">A GitHub signal card for nestchao: 1,700 contributions, 782 commits, 81 stars earned, 30 public repositories, a 12-month contribution heatmap, and the top languages by bytes.</desc>
   <style>
 @font-face {
   font-family: 'Space Grotesk';
@@ -81,10 +81,10 @@
     <circle cx="52" cy="48" r="3.4" fill="#63E6C4" class="pulse"/>
 <circle cx="52" cy="48" r="7" fill="none" stroke="#63E6C4" stroke-opacity=".20"/>
 <text x="66.00" y="52.00" class="mono" font-size="11.5" font-weight="400" fill="#63E6C4" letter-spacing="2.0">GITHUB / SIGNAL</text>
-<text x="912.00" y="52.00" class="mono" font-size="10" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="0.8">LAST 12 MONTHS · SYNCED 22 NOV 2026</text>
+<text x="912.00" y="52.00" class="mono" font-size="10" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="0.8">LAST 12 MONTHS · SYNCED 23 NOV 2026</text>
     <line x1="48" y1="74" x2="912" y2="74" stroke="#FFFFFF" stroke-opacity=".08"/>
     <line x1="210" y1="96" x2="210" y2="272" stroke="#FFFFFF" stroke-opacity=".06"/>
-    <rect x="48" y="100" width="14" height="2" rx="1" fill="#F2B84B" opacity=".9"/><text x="48.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">1,766</text><text x="48.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">CONTRIBUTIONS</text><rect x="238" y="100" width="14" height="2" rx="1" fill="#63E6C4" opacity=".9"/><text x="238.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">841</text><text x="238.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">COMMITS</text><rect x="48" y="206" width="14" height="2" rx="1" fill="#7AA2F7" opacity=".9"/><text x="48.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">80</text><text x="48.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">STARS EARNED</text><rect x="238" y="206" width="14" height="2" rx="1" fill="#F78C6C" opacity=".9"/><text x="238.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">30</text><text x="238.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">PUBLIC REPOS</text>
+    <rect x="48" y="100" width="14" height="2" rx="1" fill="#F2B84B" opacity=".9"/><text x="48.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">1,700</text><text x="48.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">CONTRIBUTIONS</text><rect x="238" y="100" width="14" height="2" rx="1" fill="#63E6C4" opacity=".9"/><text x="238.00" y="130.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">782</text><text x="238.00" y="154.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">COMMITS</text><rect x="48" y="206" width="14" height="2" rx="1" fill="#7AA2F7" opacity=".9"/><text x="48.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">81</text><text x="48.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">STARS EARNED</text><rect x="238" y="206" width="14" height="2" rx="1" fill="#F78C6C" opacity=".9"/><text x="238.00" y="236.00" class="sans" font-size="40" font-weight="300" fill="#F4F1E8" letter-spacing="-0.5">30</text><text x="238.00" y="260.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.3">PUBLIC REPOS</text>
     <text x="400.00" y="94.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.45">CONTRIBUTION SIGNAL</text>
     <text x="912.00" y="94.00" class="mono" font-size="9.0" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="1.0">12 MONTHS</text>
     <rect x="400.00" y="116.00" width="7.0" height="7.0" rx="1.54" fill="#FFFFFF" fill-opacity="0.06"/>
@@ -452,23 +452,24 @@
 <rect x="859.00" y="161.00" width="7.0" height="7.0" rx="1.54" fill="#FFFFFF" fill-opacity="0.06"/>
 <rect x="859.00" y="170.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.85"/>
 <rect x="868.00" y="116.00" width="7.0" height="7.0" rx="1.54" fill="#F2B84B" fill-opacity="0.85"/>
+<rect x="868.00" y="125.00" width="7.0" height="7.0" rx="1.54" fill="#FFFFFF" fill-opacity="0.06"/>
     <text x="400.00" y="204.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="1.4">LANGUAGES / BY BYTES</text>
     <clipPath id="lang-bar-clip"><rect x="400" y="214" width="512" height="10" rx="5.0"/></clipPath>
 <g clip-path="url(#lang-bar-clip)">
 <rect x="400" y="214" width="512" height="10" fill="#FFFFFF" fill-opacity="0.06"/>
-<rect x="400.00" y="214" width="104.75" height="10" fill="#F2B84B"/>
-<rect x="504.75" y="214" width="96.61" height="10" fill="#63E6C4"/>
-<rect x="601.36" y="214" width="95.33" height="10" fill="#7AA2F7"/>
-<rect x="696.69" y="214" width="87.04" height="10" fill="#F78C6C"/>
-<rect x="783.73" y="214" width="43.89" height="10" fill="#C4A7E7"/>
-<rect x="827.62" y="214" width="84.38" height="10" fill="#6B7280"/>
+<rect x="400.00" y="214" width="104.66" height="10" fill="#F2B84B"/>
+<rect x="504.66" y="214" width="96.52" height="10" fill="#63E6C4"/>
+<rect x="601.18" y="214" width="95.24" height="10" fill="#7AA2F7"/>
+<rect x="696.42" y="214" width="86.97" height="10" fill="#F78C6C"/>
+<rect x="783.39" y="214" width="43.85" height="10" fill="#C4A7E7"/>
+<rect x="827.24" y="214" width="84.76" height="10" fill="#6B7280"/>
 </g>
     <circle cx="403.00" cy="240.50" r="3" fill="#F2B84B"/>
 <text x="412.00" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="0.1">Kotlin</text>
 <text x="560.67" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">20.4%</text>
 <circle cx="573.67" cy="240.50" r="3" fill="#63E6C4"/>
 <text x="582.67" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="0.1">C++</text>
-<text x="731.33" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">18.9%</text>
+<text x="731.33" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">18.8%</text>
 <circle cx="744.33" cy="240.50" r="3" fill="#7AA2F7"/>
 <text x="753.33" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="0.1">Python</text>
 <text x="902.00" y="244.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">18.6%</text>
@@ -480,7 +481,7 @@
 <text x="731.33" y="266.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">8.6%</text>
 <circle cx="744.33" cy="262.50" r="3" fill="#6B7280"/>
 <text x="753.33" y="266.00" class="mono" font-size="10.5" font-weight="400" fill="#9AA4B2" letter-spacing="0.1">Other</text>
-<text x="902.00" y="266.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">16.5%</text>
+<text x="902.00" y="266.00" class="mono" font-size="10.5" font-weight="400" fill="#F4F1E8" text-anchor="end" letter-spacing="0.1">16.6%</text>
     <line x1="48" y1="296" x2="912" y2="296" stroke="#FFFFFF" stroke-opacity=".08"/>
     <text x="48.00" y="318.00" class="mono" font-size="10.0" font-weight="400" fill="#606B7A" letter-spacing="0.4">CURRENT STREAK 2 DAYS · LONGEST 19 DAYS · BEST DAY 181</text>
     <text x="912.00" y="318.00" class="mono" font-size="10.0" font-weight="400" fill="#606B7A" text-anchor="end" letter-spacing="0.4">127 ACTIVE DAYS · 12 FOLLOWERS</text>
